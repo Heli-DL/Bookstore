@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+
 @Entity
 public class Category {
 	@Id
@@ -54,8 +55,7 @@ public class Category {
 
 	@Override
 	public String toString() {
-		return "Category [categoryid=" + categoryid + ", name=" + name + ", books=" + books + "]";
+		return "Category [categoryid=" + categoryid + ", name=" + name + "]";
 	}
-	
-	
+
 }
